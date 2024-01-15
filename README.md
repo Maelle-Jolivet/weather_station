@@ -20,3 +20,10 @@ Optional: `idf.py build`
 
 To flash the firmware and view logs of the running application: `idf.py -p /dev/ttyUSB0 flash monitor`
 
+# DHT - Simple code to test DHT11 sensor
+
+`cd src/dht`
+
+Driver for DHT11 is slighty modified from `esp-idf-lib`
+
+Pinout : power 5V, data on GPIO17
